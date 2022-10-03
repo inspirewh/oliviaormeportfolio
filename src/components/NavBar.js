@@ -3,7 +3,6 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import logoLiv from '../assets/img/logo-liv.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
-import hashLink from 'react-router-hash-link'
 
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
