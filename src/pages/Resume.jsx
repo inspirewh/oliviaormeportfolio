@@ -1,12 +1,14 @@
-
-import { Aboutme } from "../components/About";
+import { ResumeComp } from "../components/Resume";
 import BaseLayout from "../layouts/BaseLayout";
 
-export default function About() {
+
+
+
+export default function Resume() {
 
     return (
         <BaseLayout>
-        <Aboutme/>
+        <ResumeComp/>
         </BaseLayout>
     )
 }

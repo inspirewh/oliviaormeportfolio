@@ -1,12 +1,14 @@
-
-import { Aboutme } from "../components/About";
+import { Chat } from "../components/Contact";
 import BaseLayout from "../layouts/BaseLayout";
 
-export default function About() {
+
+
+
+export default function Contact() {
 
     return (
         <BaseLayout>
-        <Aboutme/>
+        <Chat/>
         </BaseLayout>
     )
 }

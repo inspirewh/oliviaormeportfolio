@@ -2,7 +2,7 @@ import { useState }from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
 
-export const Contact = () => {
+export const Chat = () => {
     //the initial default state
     const formInitialDetails = {
         firstName: '',
@@ -14,8 +14,8 @@ export const Contact = () => {
     //A state that stores the inputdetails
     const [formDetails, setFormDetails] = useState(formInitialDetails);
     //submit button (default = send when user preses send "change text to "sending"  )
-    const [buttontext, setButtonText] = useState('Send')
-    const [status, setStatus] = useState({});
+    const [buttontext] = useState('Send')
+    const [status] = useState({});
     //updates the form details state so it leaves the rest form details intact and only updated the field indicated 
     const onFormUpdate = (category, value) => {
         setFormDetails({

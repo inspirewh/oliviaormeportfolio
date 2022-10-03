@@ -5,7 +5,7 @@ import colorSharp from "../assets/img/color-sharp.png"
 
 
 // creating to sliding carousel display resume of job history
-export const Resume = () => {
+export const ResumeComp = () => {
     const responsive = {
         superLargeDesktop: {
 

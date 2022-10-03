@@ -4,7 +4,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import colorSharp2 from "../assets/img/color-sharp2.png"
 
 
-export const Portfolio = () => {
+export const PortfolioComp = () => {
     
     const projects = [
         {
