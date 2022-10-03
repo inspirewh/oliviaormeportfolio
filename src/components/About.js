@@ -10,7 +10,7 @@ export const Aboutme = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                     <h1>Hi, I'm Olivia </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare congue pharetra. Curabitur non leo ut quam tincidunt maximus. Etiam id diam at velit ornare vehicula eu nec augue. Nunc id faucibus sem, ac mollis nulla. Sed luctus viverra pulvinar.</p>
+                    <p>Hey, my name is Olivia I'm excited to have you here checking out my portfolio to get an idea of what I can create for you. Little bit about me? I have been in business for 10 years (in a completely different industry!) so I know first hand the importance of getting your web development needs met and in a timeley (and enjoyable! way. I also know the impact having a quality website and professional app can have on your business.</p>
                     <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
