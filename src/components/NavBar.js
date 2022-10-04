@@ -32,17 +32,17 @@ export const NavBar = () => {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled": ""}>
             <Container>
-                <Navbar.Brand href="#home">
+                <Navbar.Brand href="oliviaportfolio/home">
                     <img src={logoLiv} alt="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"> 
                 <span className="navbar-toggler-icon"></span> </Navbar.Toggle>
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                <Link to="/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Link>
-                <Link to="/about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About Me</Link>
-                <Link to="/resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Link>
-                <Link to="/portfolio" className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}>My Work</Link>
+                <Link to="oliviaportfolio/" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Link>
+                <Link to="oliviaportfolio/about" className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about')}>About Me</Link>
+                <Link to="oliviaportfolio/resume" className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('resume')}>Resume</Link>
+                <Link to="oliviaportfolio/portfolio" className={activeLink === 'project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project')}>My Work</Link>
 
                 </Nav>
                 <span className="navbar-text">
@@ -50,7 +50,7 @@ export const NavBar = () => {
                         <a href="#"><img src={navIcon1} alt=""/></a>
                         <a href="#"><img src={navIcon2} alt=""/></a>
                     </div>
-                    <Link to="/contact">
+                    <Link to="oliviaportfolio/contact">
                         <button >Let’s Chat <ArrowRightCircle size={25} /></button>
                     </Link>
                 </span>

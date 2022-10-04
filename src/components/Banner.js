@@ -51,7 +51,7 @@ const tick = () => {
                     <span className="tagline"> Welcome to my portfolio, presented to you by Olivia Orme Development</span>
                     <h1>{`Hi, I'm Olivia`} <span className="wrap"> {text}</span> </h1>
                     <p>"good art inspires, good design motivates" <br></br>Web development portfolio. Full stack web developer building websites and web applications and supporting you with your business web development needs. See something you like, get in touch and we can chat about creating art that motivates.</p>
-                    <Link to="/contact">
+                    <Link to="oliviaportfolio/contact">
                         <button >Let’s Chat <ArrowRightCircle size={25} /></button>
                     </Link>
                     </Col>
