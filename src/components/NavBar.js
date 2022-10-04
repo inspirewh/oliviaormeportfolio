@@ -50,7 +50,7 @@ export const NavBar = () => {
                         <a href="#"><img src={navIcon1} alt=""/></a>
                         <a href="#"><img src={navIcon2} alt=""/></a>
                     </div>
-                    <Link to="oliviaportfolio/contact">
+                    <Link to="/contact">
                         <button >Let’s Chat <ArrowRightCircle size={25} /></button>
                     </Link>
                 </span>

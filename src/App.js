@@ -15,19 +15,19 @@ function App() {
       element: <Home/>,
     },
     {
-      path: "oliviaportfolio/about",
+      path: "/about",
       element: <About/>
     },
     {
-      path: "oliviaportfolio/resume",
+      path: "/resume",
       element: <Resume/>
     },
     {
-      path: "oliviaportfolio/portfolio",
+      path: "/portfolio",
       element: <Portfolio/>
     },
     {
-      path: "oliviaportfolio/contact",
+      path: "/contact",
       element: <Contact/>
     },
   ]);
