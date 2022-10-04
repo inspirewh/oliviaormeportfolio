@@ -1,7 +1,8 @@
 import {useState, useEffect} from "react"
 import { Col, Container, Row } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from "../assets/img/header-img.svg";
+import { Link } from "react-router-dom";
+import mobiledisplay from "../assets/img/mobile-Edited.png";
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0)
@@ -49,11 +50,13 @@ const tick = () => {
                     <Col xs={12} md={6} xl={7}>
                     <span className="tagline"> Welcome to my portfolio, presented to you by Olivia Orme Development</span>
                     <h1>{`Hi, I'm Olivia`} <span className="wrap"> {text}</span> </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare congue pharetra. Curabitur non leo ut quam tincidunt maximus. Etiam id diam at velit ornare vehicula eu nec augue. Nunc id faucibus sem, ac mollis nulla. Sed luctus viverra pulvinar.</p>
-                    <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                    <p>"good art inspires, good design motivates" <br></br>Web development portfolio. Full stack web developer building websites and web applications and supporting you with your business web development needs. See something you like, get in touch and we can chat about creating art that motivates.</p>
+                    <Link to="/contact">
+                        <button >Let’s Chat <ArrowRightCircle size={25} /></button>
+                    </Link>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alt="Header Img"></img>
+                        <img src={mobiledisplay} alt="Header Img"></img>
                     </Col>
                 </Row>
             </Container>

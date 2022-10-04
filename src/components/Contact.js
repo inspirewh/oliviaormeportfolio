@@ -27,13 +27,10 @@ export const Chat = () => {
     return (
         <section className="contact" id="connect">
             <Container>
-                <Row className="align-items-center">
-                    <Col md={6}>
-                        <img src={contactImg}>
-                        </img>
-                    </Col>
+                <Row className="justify-content-center align-items-center">
                     <Col md={6}>
                         <h2>Let's Chat</h2>
+                        <p>Want to know more about how I can help you with your web development needs? Get in touch by completing the form below and i'll be in touch to chat.</p>
                         <form>
                             <Row>
                                 <Col sm={6} className="px-1">

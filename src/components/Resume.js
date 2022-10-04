@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png"
+import fitnessImg from "../assets/img/fitness-app.png";
 
 
 // creating to sliding carousel display resume of job history
@@ -36,22 +37,25 @@ return (
                       Resume  
                     </h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare congue pharetra. Curabitur non leo ut quam tincidunt maximus. Etiam id diam at velit ornare vehicula eu nec augue. Nunc id faucibus sem, ac mollis nulla. Sed luctus viverra pulvinar.</p>
-                </div>
+                    <div className="resume-imgbx">
+                      <img src={fitnessImg} />
+                        <div className="resume-txtx">
+                            <h4>Web Development</h4>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+                        </div>
+                    </div>
+                  </div>
                 <Carousel responsive={responsive} infinite={true} className="resume-slide">
                     <div className="item">
                         <h3>Web Development</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare congue pharetra. Curabitur non leo ut quam tincidunt maximus. Etiam id diam at velit ornare vehicula eu nec augue. Nunc id faucibus sem, ac mollis nulla. Sed luctus viverra pulvinar.</p>
                     </div>
                     <div className="item">
-                        <h3>Web Development</h3>
+                        <h3>Web Design</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare congue pharetra. Curabitur non leo ut quam tincidunt maximus. Etiam id diam at velit ornare vehicula eu nec augue. Nunc id faucibus sem, ac mollis nulla. Sed luctus viverra pulvinar.</p>
                     </div>
                     <div className="item">
-                        <h3>Web Development</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare congue pharetra. Curabitur non leo ut quam tincidunt maximus. Etiam id diam at velit ornare vehicula eu nec augue. Nunc id faucibus sem, ac mollis nulla. Sed luctus viverra pulvinar.</p>
-                    </div>
-                    <div className="item">
-                        <h3>Web Development</h3>
+                        <h3>UX/UI</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare congue pharetra. Curabitur non leo ut quam tincidunt maximus. Etiam id diam at velit ornare vehicula eu nec augue. Nunc id faucibus sem, ac mollis nulla. Sed luctus viverra pulvinar.</p>
                     </div>
                 </Carousel>
