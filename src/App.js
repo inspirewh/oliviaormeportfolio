@@ -15,7 +15,7 @@ function App() {
       element: <Home/>,
     },
     {
-      path: "/oliviaportfolio/about",
+      path: "/about",
       element: <About/>
     },
     {
