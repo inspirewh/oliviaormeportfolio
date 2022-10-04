@@ -11,23 +11,23 @@ import Contact from './pages/Contact';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "oliviaportfolio/",
       element: <Home/>,
     },
     {
-      path: "/about",
+      path: "oliviaportfolio/about",
       element: <About/>
     },
     {
-      path: "/resume",
+      path: "oliviaportfolio/resume",
       element: <Resume/>
     },
     {
-      path: "/portfolio",
+      path: "oliviaportfolio/portfolio",
       element: <Portfolio/>
     },
     {
-      path: "/contact",
+      path: "oliviaportfolio/contact",
       element: <Contact/>
     },
   ]);
