@@ -23,8 +23,7 @@ The React Portfolio live URL:
 This website doesnt require installation of any programs or software. It can be viewed on any web browser. It is now live at the following URL https://inspirewh.github.io/oliviaportfolio/.
 
 ## Usage
- This application will allow users to signup to the TechBlog site.Once the user Signedup successfully,they can view all the post and comment on the other user's post.
- The user can create a new post and update/delete their own post.
+ This application displays work and about em information to potential employers and clients.
 
 ## License
  ![No license-licensed](https://img.shields.io/badge/license-No%20license-green)
