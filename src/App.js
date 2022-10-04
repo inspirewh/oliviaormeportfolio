@@ -11,11 +11,11 @@ import Contact from './pages/Contact';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "oliviaportfolio/",
+      path: "/oliviaportfolio/",
       element: <Home/>,
     },
     {
-      path: "/about",
+      path: "/oliviaportfolio/about",
       element: <About/>
     },
     {
