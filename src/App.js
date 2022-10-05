@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/oliviaportfolio/",
       element: <Home/>,
     },
     {
