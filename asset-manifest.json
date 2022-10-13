@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/oliviaormeportfolio/static/css/main.c74c2fe6.css",
+    "main.js": "/oliviaormeportfolio/static/js/main.a66c62da.js",
+    "static/js/787.1ed0c42c.chunk.js": "/oliviaormeportfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/shutterstock_1400413730.jpg": "/oliviaormeportfolio/static/media/shutterstock_1400413730.809e1684993bdcede596.jpg",
+    "static/media/color-sharp.png": "/oliviaormeportfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/fitness-app.png": "/oliviaormeportfolio/static/media/fitness-app.678ccc16b540d905e59a.png",
+    "static/media/jokethumbnail.png": "/oliviaormeportfolio/static/media/jokethumbnail.c554525074b200411708.png",
+    "static/media/mobile-Edited.png": "/oliviaormeportfolio/static/media/mobile-Edited.668035b44a79bfb1ebe4.png",
+    "static/media/aboutme-img.png": "/oliviaormeportfolio/static/media/aboutme-img.885a19acf366f480c4aa.png",
+    "static/media/CentraNo2-Bold.ttf": "/oliviaormeportfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/oliviaormeportfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/oliviaormeportfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/logo-liv.png": "/oliviaormeportfolio/static/media/logo-liv.0d118d5babd10fa39981.png",
+    "static/media/revicons.eot": "/oliviaormeportfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/oliviaormeportfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/oliviaormeportfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/oliviaormeportfolio/index.html",
+    "static/media/nav-icon1.svg": "/oliviaormeportfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/oliviaormeportfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
+    "main.c74c2fe6.css.map": "/oliviaormeportfolio/static/css/main.c74c2fe6.css.map",
+    "main.a66c62da.js.map": "/oliviaormeportfolio/static/js/main.a66c62da.js.map",
+    "787.1ed0c42c.chunk.js.map": "/oliviaormeportfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c74c2fe6.css",
+    "static/js/main.a66c62da.js"
+  ]
+}
