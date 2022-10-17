@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-import { createBrowserRouter, RouterProvider, createHashRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home';
