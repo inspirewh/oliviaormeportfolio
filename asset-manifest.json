@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/oliviaormeportfolio/static/css/main.c74c2fe6.css",
-    "main.js": "/oliviaormeportfolio/static/js/main.a66c62da.js",
+    "main.css": "/oliviaormeportfolio/static/css/main.d83c3978.css",
+    "main.js": "/oliviaormeportfolio/static/js/main.62ab9c88.js",
     "static/js/787.1ed0c42c.chunk.js": "/oliviaormeportfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/shutterstock_1400413730.jpg": "/oliviaormeportfolio/static/media/shutterstock_1400413730.809e1684993bdcede596.jpg",
     "static/media/color-sharp.png": "/oliviaormeportfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -19,12 +19,12 @@
     "index.html": "/oliviaormeportfolio/index.html",
     "static/media/nav-icon1.svg": "/oliviaormeportfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/oliviaormeportfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.c74c2fe6.css.map": "/oliviaormeportfolio/static/css/main.c74c2fe6.css.map",
-    "main.a66c62da.js.map": "/oliviaormeportfolio/static/js/main.a66c62da.js.map",
+    "main.d83c3978.css.map": "/oliviaormeportfolio/static/css/main.d83c3978.css.map",
+    "main.62ab9c88.js.map": "/oliviaormeportfolio/static/js/main.62ab9c88.js.map",
     "787.1ed0c42c.chunk.js.map": "/oliviaormeportfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c74c2fe6.css",
-    "static/js/main.a66c62da.js"
+    "static/css/main.d83c3978.css",
+    "static/js/main.62ab9c88.js"
   ]
 }
